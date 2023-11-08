@@ -1,15 +1,6 @@
 // affichage du lien de l'image en cliquant sur les boutons du carousel
 const btnCarousel = document.querySelectorAll(".carousel-indicators button");
 
-// btnCarousel[0].addEventListener("click", ()=>{
-//     alert(btnCarousel[0].src="./img/kimJungGi1.jpg")
-// })
-// btnCarousel[1].addEventListener("click", ()=>{
-//     alert(btnCarousel[1].src="./img/kimJungGi2.jpg")
-// })
-// btnCarousel[2].addEventListener("click", ()=>{
-//     alert(btnCarousel[2].src="./img/kimJungGi2.jpg")
-// })
 for (let i=0; i <= 2; i++) {
     btnCarousel[i].addEventListener("click", ()=>{
         alert(btnCarousel[i].src=`./img/brianSum${i+1}.jpg`)
@@ -19,8 +10,33 @@ for (let i=0; i <= 2; i++) {
 // agrandi l'image en survol des images
 const card = document.querySelectorAll(".card");
 
-for (i=0; i <= 2; i++) {
+for (let i=0; i <= 2; i++) {
     card[i].addEventListener("mouseover", ()=>{
             card[i].classList.toggle("cardImg")
         })
 }
+
+// modifie la font de tout les titres
+const changeH = document.querySelector(".styleH #changeH");
+const h = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+changeH.addEventListener("click", ()=>{
+    for (let i=0; i <= 2; i++) {
+        h[i].classList.toggle("newFont")
+    }
+})
+
+// modifie la section style
+const styleSection = document.querySelector("#styleSection");
+const styleSectionButton = document.querySelector("#styleSection button");
+
+styleSectionButton.addEventListener("click", ()=>{
+    styleSection.style.color= "#0000ff";
+})
+
+//
+const darkMode = document.querySelector("#darkMode");
+
+// darkMode.addEventListener("click", ()=>{
+//     querySelector("head").style.background-color= "#000000";
+// })
