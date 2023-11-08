@@ -14,7 +14,11 @@ body {
 } */
 
 /*  */
-#carousel img {
+/* #carousel img {
     width: 300px;
     height: 300px;
+} */
+
+.cardImg{
+    transform: scale(1.3);
 }
