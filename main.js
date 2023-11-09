@@ -31,12 +31,19 @@ const styleSection = document.querySelector("#styleSection");
 const styleSectionButton = document.querySelector("#styleSection button");
 
 styleSectionButton.addEventListener("click", ()=>{
-    styleSection.style.color= "#0000ff";
+    styleSection.style.color= "rgb(36 110 185)";
 })
 
-//
-const darkMode = document.querySelector("#darkMode");
+// ajout darkmode
+const darkMode = document.querySelector("#dmButton");
+const bd = document.querySelector("body")
+const gap = document.querySelectorAll(".gap")
+// const sect = document.querySelectorAll("section")
+// console.log(sect)
+darkMode.addEventListener("click", ()=>{
+    bd.classList.toggle("darkMode")
+    for (let i=0; i <= gap.length-1; i++) {
+        gap[i].classList.toggle("darkMode")
+    }
+})
 
-// darkMode.addEventListener("click", ()=>{
-//     querySelector("head").style.background-color= "#000000";
-// })

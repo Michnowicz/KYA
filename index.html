@@ -1,152 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./style.css">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KnowYourArtist</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
+
+
+
+
 <body>
-<!-- navbar & mode sombre -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <img src="./img/KYAlogo.svg" alt="logo" width="75" height="75">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">sect1</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">sect2</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">sect3</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">sect4</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">sect5</a>
-              </li>
-            </ul>
-            <button id="darkMode">nuit</button>
+  <section ID="main">
+  <!-- navbar & mode sombre -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <img src="./img/KYAlogo.svg" alt="logo" width="75" height="75">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#Sec1">sect1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#carousel">sect2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#Sec3">sect3</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#styleSection">sect4</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#Sec5">sect5</a>
+                </li>
+              </ul>
+              <button id="dmButton">nuit</button>
+            </div>
           </div>
-        </div>
-    </nav>
-
-<!-- Section bouton style:  -->
-    <section>
+      </nav>
+      <span class="gap"></span>
+  <!-- Section bouton style:  -->
+      <section id="Sec1">
         <div class="styleH">
-            <h1>donner le titre et un bouton?</h1>
-            <button id="changeH">changer le style de tte la page</button>
+            <br>
+            <h1>donner le titre</h1>
+            <button id="changeH">changer le style des h</button>
             <img src="" alt="">
+            <br>
         </div>
-    </section>
-<!-- Section carousel:  -->
-    <section id="carousel">
-        <div class="carouselSection">
-            <h2>Kim Jung Gi</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis id, et non, reiciendis consequatur ipsum ullam ratione aliquam doloribus voluptates, aut recusandae? Quae est voluptas, excepturi mollitia assumenda cupiditate reiciendis.</p>
-        </div>
-        <div id="carouselExampleIndicators" class="carousel slide" style="width: 500px;">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/grey.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/kimJungGi2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/kimJungGi3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true">
-              </span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      </section>
+      <span class="gap"></span>
+  <!-- Section carousel:  -->
+      <section id="carousel">
+          <div class="carouselSection">
+              <h2>Brian Sum</h2>
+              <p id="S1text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis id, et non, reiciendis consequatur ipsum ullam ratione aliquam doloribus voluptates, aut recusandae? Quae est voluptas, excepturi mollitia assumenda cupiditate reiciendis.</p>
           </div>
-    </section>
-
-<!-- Section Cards -->
-    <section>
-        <div class="cardSection">
-            <h2>Sushio</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet illum eaque quam qui sint, commodi ipsum ex. Aspernatur ea ratione non ab quisquam, voluptatem reprehenderit laborum consequuntur, voluptate, doloribus nesciunt.</p>
-
-            <div class="cardAll">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/sushio1.jpg" class="card-img-top" alt="...">
-                  </div>
-                  <br>
+          <div id="carouselExampleIndicators" class="carousel slide" style="width: 500px; max-height: 500px;">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" >
+                  <img src="./img/brianSum1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/brianSum2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/brianSum3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                </span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </section>
+      <span class="gap"></span>
+  <!-- Section Cards -->
+      <section id="Sec3">
+          <div class="cardSection">
+              <h2>Sushio</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet illum eaque quam qui sint, commodi ipsum ex. Aspernatur ea ratione non ab quisquam, voluptatem reprehenderit laborum consequuntur, voluptate, doloribus nesciunt.</p>
+              <div class="cardAll " style="width: 72rem;">
                   <div class="card" style="width: 18rem;">
-                    <img src="./img/sushio2.jpg" class="card-img-top" alt="...">
-                  </div>
-                  <br>
-                  <div class="card" style="width: 18rem;">
-                    <img src="./img/sushio3.jpg" class="card-img-top" alt="...">
-                  </div>
-            </div>   
+                      <img src="./img/sushio1.jpg" class="card-img-top" alt="...">
+                      <br>
+                    </div>
+                    <br>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/sushio2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <br>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/sushio3.jpg" class="card-img-top" alt="...">
+                    </div>
+              </div>   
+          </div>
+      </section>
+      <span class="gap"></span>
+  <!-- Section style -->
+      <section ID="styleSection">
+        <div>
+          <h2>Kim Jung Gi</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima incidunt tempora porro ab, enim itaque aspernatur ad adipisci corporis? Culpa blanditiis distinctio voluptates, repellat expedita praesentium tempore nisi ullam!</p>
+          <img src="" alt="">
+          <button>change le style de section</button>
         </div>
-    </section>
-
-<!-- Section style -->
-    <section ID="styleSection">
-        <h2>artiste 3</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minima incidunt tempora porro ab, enim itaque aspernatur ad adipisci corporis? Culpa blanditiis distinctio voluptates, repellat expedita praesentium tempore nisi ullam!</p>
-        <img src="" alt="">
-        <button>change le style de section</button>
-    </section>
-
-<!-- Section 5 -->
-    <section>
-        <h2>artiste 4</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Qui ut soluta deleniti saepe nesciunt voluptatibus tenetur corrupti impedit, nam voluptas, non consectetur ipsam suscipit quis necessitatibus ipsa facilis.</p>
-        <img src="" alt="">
-    </section>
-
-<!-- Footer -->
-    <section>
-        <div class="footer">
-            <ul>
-                <h3>titre list 1</h3>
-                <li><a href="">lien1</a></li>
-                <li><a href="">lien1</a></li>
-                <li><a href="">lien1</a></li>
-            </ul>
-
-            <ul>
-                <h3>titre list 2</h3>
-                <li><a href="">lien1</a></li>
-                <li><a href="">lien1</a></li>
-                <li><a href="">lien1</a></li>
-            </ul>
-
-            <ul>
-                <h3>titre list 3</h3>
-                <li><a href="">lien1</a></li>
-                <li><a href="">lien1</a></li>
-                <li><a href="">lien1</a></li>
-            </ul>
+      </section>
+      <span class="gap"></span>
+  <!-- Section 5 -->
+      <section id="Sec5">
+        <div>
+          <h2>Yoh Yoshinari</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, amet. Qui ut soluta deleniti saepe nesciunt voluptatibus tenetur corrupti impedit, nam voluptas, non consectetur ipsam suscipit quis necessitatibus ipsa facilis.</p>
+          <img src="" alt="">
         </div>
-    </section>
+      </section>
+      <span class="gap"></span>
+  <!-- Footer -->
+      <section>
+          <div class="footer">
+              <ul>
+                  <h3>titre list 1</h3>
+                  <li><a href="">lien1</a></li>
+                  <li><a href="">lien1</a></li>
+                  <li><a href="">lien1</a></li>
+              </ul>
 
+              <ul>
+                  <h3>titre list 2</h3>
+                  <li><a href="">lien1</a></li>
+                  <li><a href="">lien1</a></li>
+                  <li><a href="">lien1</a></li>
+              </ul>
+
+              <ul>
+                  <h3>titre list 3</h3>
+                  <li><a href="">lien1</a></li>
+                  <li><a href="">lien1</a></li>
+                  <li><a href="">lien1</a></li>
+              </ul>
+          </div>
+      </section>
+  </section>
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
