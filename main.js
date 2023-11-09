@@ -1,5 +1,5 @@
 // affichage du lien de l'image en cliquant sur les boutons du carousel
-const btnCarousel = document.querySelectorAll(".carousel-indicators button");
+const btnCarousel = document.querySelectorAll(".carousel-item img");
 
 for (let i=0; i <= 2; i++) {
     btnCarousel[i].addEventListener("click", ()=>{
@@ -38,8 +38,7 @@ styleSectionButton.addEventListener("click", ()=>{
 const darkMode = document.querySelector("#dmButton");
 const bd = document.querySelector("body")
 const gap = document.querySelectorAll(".gap")
-// const sect = document.querySelectorAll("section")
-// console.log(sect)
+
 darkMode.addEventListener("click", ()=>{
     bd.classList.toggle("darkMode")
     for (let i=0; i <= gap.length-1; i++) {
@@ -47,3 +46,14 @@ darkMode.addEventListener("click", ()=>{
     }
 })
 
+
+// affiche les images cachées
+const show = document.querySelector("#hide");
+const hiddenCards = document.querySelectorAll(".card.hidden");
+console.log(hiddenCards[1])
+
+show.addEventListener("click", ()=>{
+    for (let i=0; i <= hiddenCards.length-1; i++) {
+        hiddenCards[i].classList.toggle("hidden")
+    }
+})

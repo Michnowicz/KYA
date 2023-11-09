@@ -15,9 +15,17 @@ section {
     max-width: 75em;
 }
 
+.navbar {
+    background-color: #c7d3dd !important;
+}
+
 .gap{
     height: 1em;
     background-color: white;
+}
+
+#dmButton {
+    right: 100px;
 }
 
 
@@ -56,12 +64,25 @@ section {
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
     flex-direction: row;
+    width: 1000px;
+    height: 250px;
+    background-color: #c7d3dd;
+}
+
+#footersec {
+    background-color: #c7d3dd;
 }
 
 
 .darkMode {
     background-color: black;
     color: white; 
+}
+
+
+.hidden {
+    display:none;
 }
